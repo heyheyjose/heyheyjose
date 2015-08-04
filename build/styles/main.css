@@ -58,6 +58,15 @@ body a:hover:before {
 	background-color: #f5d76e;
 }
 
+.emedco {
+	background-color: #774F38;
+	padding: 0 4px 0 2px;
+}
+
+.emedco:hover:before {
+	background-color: #774F38;
+}
+
 .autonation {
 	background-color: #c0392b;
 	padding: 0 4px 0 2px;

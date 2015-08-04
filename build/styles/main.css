@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #8e44ad;
+	padding: 5px
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+body a:hover:before {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	z-index: -1;
+}
+
+.logo {
+	width: 175px;
+	height: 175px;
+	background-color: lightgray;
+	padding-left: 5px;
+	font-size: 17px
+}
+
+.main-text {
+	font-size: 23px;
+	margin-top: 20px;
+}
+
+.resume {
+	background-color: #f5d76e;
+	padding: 0 4px 0 2px;
+}
+
+.resume:hover:before {
+	background-color: #f5d76e;
+}
+
+.autonation {
+	background-color: #c0392b;
+	padding: 0 4px 0 2px;
+}
+
+.autonation:hover:before {
+	background-color: #c0392b;
+}
+
+.payless {
+	background-color: #2980b9;
+	padding: 0 4px 0 2px;
+}
+
+.payless:hover:before {
+	background-color: #2980b9;
+}
+
+.github {
+	background-color: #34495e;
+	padding: 0 4px 0 2px;
+}
+
+.github:hover:before {
+	background-color: #34495e;
+}
+
+.codepen {
+	background-color: #E26A6A;
+	padding: 0 4px 0 2px;
+}
+
+.codepen:hover:before {
+	background-color: #E26A6A;
+}
+
+.email {
+	background-color: #2ecc71;
+	padding: 0 4px 0 2px;
+}
+
+.email:hover:before {
+	background-color: #2ecc71;
+}

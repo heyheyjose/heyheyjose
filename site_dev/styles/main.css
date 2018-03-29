@@ -1,113 +1,113 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-	background-color: #8e44ad;
-	padding: 5px
+  background-color: #6813d8;
+  padding: 5px;
 }
 
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-	color: white;
+  color: white;
 }
 
 body a:hover:before {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	content: '';
-	z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  z-index: -1;
 }
 
 .logo {
-	width: 175px;
-	height: 175px;
-	background-color: lightgray;
-	padding-left: 5px;
-	font-size: 17px
+  width: 175px;
+  height: 175px;
+  background-color: lightgray;
+  padding-left: 5px;
+  font-size: 17px;
 }
 
 .main-text {
-	font-size: 23px;
-	margin-top: 20px;
+  font-size: 23px;
+  margin-top: 20px;
 }
 
 .resume {
-	background-color: #f5d76e;
-	padding: 0 4px 0 2px;
+  background-color: #ffe000;
+  padding: 0 4px 0 2px;
 }
 
 .resume:hover:before {
-	background-color: #f5d76e;
+  background-color: #ffe000;
 }
 
 .emedco {
-	background-color: #774F38;
-	padding: 0 4px 0 2px;
+  background-color: #774f38;
+  padding: 0 4px 0 2px;
 }
 
 .emedco:hover:before {
-	background-color: #774F38;
+  background-color: #774f38;
 }
 
 .carnival {
-	background-color: #c0392b;
-	padding: 0 4px 0 2px;
+  background-color: #c0392b;
+  padding: 0 4px 0 2px;
 }
 
 .carnival:hover:before {
-	background-color: #c0392b;
+  background-color: #c0392b;
 }
 
-.payless {
-	background-color: #2980b9;
-	padding: 0 4px 0 2px;
+.deloitte {
+  background-color: #86bc25;
+  padding: 0 4px 0 2px;
 }
 
-.payless:hover:before {
-	background-color: #2980b9;
+.deloitte:hover:before {
+  background-color: #86bc25;
 }
 
 .github {
-	background-color: #34495e;
-	padding: 0 4px 0 2px;
+  background-color: #34495e;
+  padding: 0 4px 0 2px;
 }
 
 .github:hover:before {
-	background-color: #34495e;
+  background-color: #34495e;
 }
 
 .codepen {
-	background-color: #E26A6A;
-	padding: 0 4px 0 2px;
+  background-color: #e26a6a;
+  padding: 0 4px 0 2px;
 }
 
 .codepen:hover:before {
-	background-color: #E26A6A;
+  background-color: #e26a6a;
 }
 
 .email {
-	background-color: #2ecc71;
-	padding: 0 4px 0 2px;
+  background-color: #2980b9;
+  padding: 0 4px 0 2px;
 }
 
 .email:hover:before {
-	background-color: #2ecc71;
+  background-color: #2980b9;
 }

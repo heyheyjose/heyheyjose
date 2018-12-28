@@ -94,6 +94,15 @@ body a:hover:before {
   background-color: #34495e;
 }
 
+.gitlab {
+  background-color: #fc6d26;
+  padding: 0 4px 0 2px;
+}
+
+.gitlab:hover:before {
+  background-color: #fc6d26;
+}
+
 .codepen {
   background-color: #e26a6a;
   padding: 0 4px 0 2px;
